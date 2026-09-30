@@ -429,6 +429,70 @@ export default function Home() {
           <p>Cloud Computing & DevOps</p>
         </div>
       </footer>
+<section id="media" className="py-20">
+  <div className="mx-auto max-w-6xl px-6">
+    <div className="mb-10 text-center">
+      <p className="text-sm font-semibold uppercase tracking-wider">
+        Cloud & DevOps
+      </p>
+
+      <h2 className="mt-2 text-3xl font-bold sm:text-4xl">
+        What I’m Learning
+      </h2>
+
+      <p className="mx-auto mt-4 max-w-2xl text-gray-600">
+        A few areas I am exploring as I continue learning cloud computing
+        and DevOps.
+      </p>
+    </div>
+
+    <div className="grid gap-8 md:grid-cols-3">
+      <div className="overflow-hidden rounded-2xl border bg-white shadow-sm">
+        <img
+          src="/images/cloud.jpg"
+          alt="Cloud computing"
+          className="h-56 w-full object-cover"
+        />
+        <div className="p-6">
+          <h3 className="text-xl font-semibold">Cloud Computing</h3>
+          <p className="mt-2 text-gray-600">
+            Learning how cloud platforms can be used to build and deploy
+            applications.
+          </p>
+        </div>
+      </div>
+
+      <div className="overflow-hidden rounded-2xl border bg-white shadow-sm">
+        <img
+          src="/images/kubernetes.jpg"
+          alt="Kubernetes"
+          className="h-56 w-full object-cover"
+        />
+        <div className="p-6">
+          <h3 className="text-xl font-semibold">Kubernetes</h3>
+          <p className="mt-2 text-gray-600">
+            Exploring containers, pods, deployments, and services with
+            Kubernetes.
+          </p>
+        </div>
+      </div>
+
+      <div className="overflow-hidden rounded-2xl border bg-white shadow-sm">
+        <img
+          src="/images/devops.jpg"
+          alt="DevOps"
+          className="h-56 w-full object-cover"
+        />
+        <div className="p-6">
+          <h3 className="text-xl font-semibold">DevOps</h3>
+          <p className="mt-2 text-gray-600">
+            Learning about automation, CI/CD, monitoring, and deployment.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
     </main>
   );
 }
